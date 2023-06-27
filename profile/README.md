@@ -1,12 +1,38 @@
-## Hi there 👋
+# BSM-Deploy
+### 이현준, 정동겸, 정승민
 
-<!--
+### https://deploy.bssm.kro.kr/
 
-**Here are some ideas to get you started:**
+---
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+## 기술 스택
+
+### 프론트엔드
+* #### Next.js, TypeScript, tailwindcss, react-query, Recoil, Axios
+### 백엔드
+* #### Java, Spring boot, Spring Security, JPA, Redis, Docker, Shell Script, Nginx
+
+---
+
+## 개발 배경
+
+#### 현재 교내 학생들은 자체적으로 개발한 프로젝트를 배포하지 못하여 포트폴리오로 활용할 수 없는 상황이 많이 발생하고 있다. 웹 페이지의 경우 Vercel, Netlify, Heroku, GitHub Pages와 같은 무료 호스팅 플랫폼을 통해 상대적으로 간편하게 배포할 수 있지만, 서버를 배포하기 위해서는 개인 서버 또는 유료 클라우드 플랫폼인 AWS 등을 사용해야 한다. 이에 따라 프론트엔드와 백엔드가 모두 배포된 완전한 서비스를 구축하는 것이 어려운 상황이 발생하고 있다. 게다가, 개인 서버나 AWS와 같은 유료 클라우드 플랫폼을 사용하면 복잡한 배포 설정을 해야 하며, 서버 배포 시 보안 측면을 고려하지 않으면 해킹의 위험이 존재한다.
+
+#### 위와 같은 문제를 해결하기 위해, 우리의 목표는 프론트와 백엔드를 모두 배포할 수 있는 기능을 제공하는 것이다. 보안 지식이 전무한 사용자들을 위해 자동으로 HTTPS 등의 기본적인 설정이 적용된다. 또한, 복잡한 배포 설정 없이도 웹 인터페이스만으로도 간편하게 배포할 수 있는 기능을 제공한다. 이를 통해 교내 학생들이 개발한 프로젝트를 프론트와 백엔드를 함께 배포하여 완성된 서비스로 운영하거나 포트폴리오로 활용할 수 있다.
+
+---
+
+## 주요 기능
+### 프론트엔드 프로젝트 배포
+* #### 단일 HTML 파일
+* #### 다중 파일 (HTML, CSS, JS 등 여러 파일들)
+* #### React.js
+* #### Next.js
+### 백엔드 프로젝트 배포
+* #### Node.js 프로젝트 (Express.js, Nest.js)
+* #### Spring Boot 프로젝트
+### 환경 변수 적용 기능
+### 동적 프로젝트 로그 조회 기능
+### bssm.kro.kr 도메인 앞에 원하는 도메인 접두사 사용 가능
+* #### ex) myproject.bssm.kro.kr (이미 예약된 도메인 접두사는 사용 불가능)
+### BSM OAuth를 통한 간편 로그인
